@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor do corpo e fonte das letras */
+body {
+    background-color: white;
+    font-family: Arial sans-serif; line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Faz com que cada item da lista (<li>) dentro de um elemento <nav> seja exibido na mesma linha (horizontalmente) */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Altera a cor do texto dentro do link (<a>) para branco. */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Remove os marcadores (bullets) dos itens da lista (<li>) dentro de um <ul> (lista não ordenada) que está dentro de um elemento <nav>. */
+nav ul {
+    display: inline;
+    padding: 1rem 0;
+}
+
+/* Adiciona um espaçamento interno de X pixels em todos os lados do elemento <main>.
+Define a largura máxima do elemento <main> para X pixels. 
+Define a margem superior e inferior como 0 e a margem lateral como automática.*/
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Define a Margem Inferior: Adiciona um espaço de X rem abaixo de cada elemento <section> na página. */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Final da pagina */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Formatação da imagem da pagína inícial */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* Centraiza um texto específico */
+h2 {
+    text-align: center;
+}
+
+/* Formatação das imagens dos pacotes promocionais */
+#img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centraliza os paragrafos */
+p {
+    text-align: center;
+}
+
+/* Destaque de um trecho específico */
+.atras {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.finan {
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
